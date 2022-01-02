@@ -14,3 +14,6 @@ dist/
 # PyInstaller
 *.manifest
 *.spec
+/logging.log
+/savedlist.txt
+/versionlist.txt

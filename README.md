@@ -26,6 +26,17 @@ If you install PyInstaller via `pip`, Windows Defender will often flag any compi
 4. `cd ..`
 5. `py setup.py install`
 
+## Usage and Examples
+
+* After compiling with pyinstaller simply run LightHouseSwitch.exe. 
+* for first use click `Discover` This will locate lighthouse's (if you do not have a bluetooth module the program will crash.)
+* Once the lighthouse list is populated select either `On` or `Off` to cycle power. 
+* On second use simply click "Load previous" then either `On` or `Off`.
+
+## Troubleshooting
+* If program crashes ensure bluetooth module is working correctly. 
+* If more than 2 base stations in your system add their MAC addresses to the `savedlist.txt` file. 
+* If an unknown error please submit log file. 
 
 ## Acknowledgements
 [rossbearman](https://github.com/rossbearman) for building the entire code I only made the GUI. [monstermac77](https://github.com/monstermac77) and [PumkinSpice](https://github.com/PumkinSpice) for their work on the [MixedVR Manager](https://github.com/monstermac77/vr), the [WMR MixedVR guide](https://github.com/PumkinSpice/MixedVR/wiki/ReadMe) and their extensive testing of this script.
