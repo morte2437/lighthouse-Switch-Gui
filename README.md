@@ -16,7 +16,7 @@ Created from code created by [rossbearman](https://github.com/rossbearman) for [
 ## Compiling an Executable
 PyInstaller is used to generate an executable from the source. Run the following command in the root folder:
 
-`pyinstaller --onefile .\lighthouse_keeper.py`
+`pyinstaller --onefile .\LighthouseSwitch.py`
 
 If you install PyInstaller via `pip`, Windows Defender will often flag any compiled executables. You can typically fix this by compiling PyInstaller's bootloader yourself and installing it manually, rather than using `pip`.
 
